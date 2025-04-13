@@ -1,4 +1,5 @@
 import './App.css'
+import { Camera } from 'lucide-react';
 import DaisyUiNavbar from './components/DaisyUiNavbar'
 import Navbar from './components/Navbar/Navbar'
 
@@ -9,7 +10,7 @@ function App() {
     <>
       <header>
         <Navbar></Navbar>
-        <DaisyUiNavbar></DaisyUiNavbar>
+        {/* <DaisyUiNavbar></DaisyUiNavbar> */}
       </header>
       <main></main>
       <footer></footer>
